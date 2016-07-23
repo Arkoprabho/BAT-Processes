@@ -167,7 +167,7 @@ namespace BATProcesses.Hotspot
 		{
 			try
 			{
-				psi = new ProcessStartInfo("cmd.exe");
+				psi = new ProcessStartInfo("C:\Windows\System32\cmd.exe");
 				psi.RedirectStandardInput = true;
 				psi.RedirectStandardOutput = true;
 				psi.CreateNoWindow = true;
